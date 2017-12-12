@@ -58,29 +58,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
-                android:textSize="40sp"/>
+                android:textSize="40sp"
+                />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="/"
-                    android:textSize="40sp"
+                    android:textSize="40sp"/>
 
              <TextView
                     android:id="@+id/team_a_wkt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="40sp"
+                    android:textSize="40sp"/>
 
-                 />
+
              <TextView
                     android:id="@+id/team_a_over"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(0)"
                     android:textSize="40sp"
-                 />
+                     />
 
 
             </LinearLayout>
@@ -159,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="/"
-                    android:textSize="40sp"
+                    android:textSize="40sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
