@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.mahbub.helloandroid.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="9">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/cardpic2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#09b1de"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageView
+             android:id="@+id/logo"
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#09b1de"
+
+             android:src="@drawable/cardpic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#09b1de"
+        android:layout_weight="2">
+
+
+
+        <TextView
+            android:id="@+id/address"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:linksClickable="true"
+
+
+            android:text="2465 Latham St \nMountain View, CA 94043 \nT.650-555-5555\nwww.udacity.com"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="80dp"
+
+            android:fontFamily="sans-serif"
+
+            android:textSize="15dp"/>
+     </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
